@@ -31,11 +31,6 @@ public class Armstrong {
             num = num / 10;
 
         }
-        if(originalValue == result){
-            return true;
-
-        }
-
-     return false;
+       return originalValue == result;
     }
 }
